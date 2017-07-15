@@ -104,7 +104,7 @@
                         <archive>
                             <manifest>
                                 <addClasspath>true</addClasspath>
-                                <mainClass>sample.HelloWorldHandler</mainClass>
+                                <mainClass>Launcher</mainClass>
                             </manifest>
                         </archive>
                     </configuration>
