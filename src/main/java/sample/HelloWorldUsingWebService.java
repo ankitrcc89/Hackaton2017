@@ -21,11 +21,13 @@ public class HelloWorldUsingWebService implements Speechlet {
     }
 
     public SpeechletResponse onLaunch(final LaunchRequest launchRequest, final Session session) throws SpeechletException {
+        System.out.println("Inside Launch");
         session.getSessionId();
         return getWelcomeResponse();
     }
 
     public SpeechletResponse onIntent(final IntentRequest intentRequest, final Session session) throws SpeechletException {
+        System.out.println("Inside Intent");
         Intent intent = intentRequest.getIntent();
         String intentName = (intent != null) ? intent.getName() : null;
 

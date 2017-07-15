@@ -2,13 +2,12 @@
 <web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee"
          xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
          version="2.5">
-
     <servlet>
-        <servlet-name>HelloWorldHandler</servlet-name>
-        <servlet-class>sample.HelloWorldHandler</servlet-class>
+        <servlet-name>HelloWorldServlet</servlet-name>
+        <servlet-class>helloworld.HelloWorldServlet</servlet-class>
     </servlet>
     <servlet-mapping>
-        <servlet-name>HelloWorldHandler</servlet-name>
+        <servlet-name>HelloWorldServlet</servlet-name>
         <url-pattern>/hello</url-pattern>
     </servlet-mapping>
 </web-app>
