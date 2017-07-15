@@ -4,11 +4,11 @@
          version="2.5">
 
     <servlet>
-        <servlet-name>HelloWorldServlet</servlet-name>
+        <servlet-name>HelloWorldHandler</servlet-name>
         <servlet-class>sample.HelloWorldHandler</servlet-class>
     </servlet>
     <servlet-mapping>
-        <servlet-name>HelloWorldServlet</servlet-name>
+        <servlet-name>HelloWorldHandler</servlet-name>
         <url-pattern>/hello</url-pattern>
     </servlet-mapping>
 </web-app>
